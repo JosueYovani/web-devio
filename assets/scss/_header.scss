@@ -33,7 +33,6 @@
       &__fields {
         border: $border-dev-size solid $boder-dev-color;
         border-radius: 6px;
-        // outline: solid salmon;
         display: flex;
         padding-left: 6px;
 
@@ -51,6 +50,54 @@
 
           &:hover {
             background-color: #e9ecef;
+          }
+        }
+      }
+    }
+
+    .dev-menu {
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      flex-grow: 1;
+      width: auto;
+
+      span {
+        margin-right: 8px;
+        color: black;
+
+        &:hover {
+          text-decoration: underline;
+          background-color: #e9ecef;
+        }
+      }
+
+      &__autentication {
+        display: flex;
+
+        &--btn {
+          padding-right: 8px;
+          font-weight: 600;
+          border: 1.5px solid $brand-darker-rgb;
+          color: $brand-rgb;
+
+          &:hover {
+            background-color: $brand-rgb;
+            color: $text-color;
+            text-decoration: underline;
+          }
+        }
+
+        &--avatar {
+          display: none;
+          height: 40px;
+          width: 40px;
+          background-color: hotpink;
+          border-radius: 50%;
+          > span {
+            font-size: 9px;
+            text-align: center;
+            color: aliceblue;
           }
         }
       }
