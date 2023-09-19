@@ -53,4 +53,45 @@ body {
 }
 .dev-header__container .dev-search__fields--button:hover {
   background-color: #e9ecef;
+}
+.dev-header__container .dev-menu {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  flex-grow: 1;
+  width: auto;
+}
+.dev-header__container .dev-menu span {
+  margin-right: 8px;
+  color: black;
+}
+.dev-header__container .dev-menu span:hover {
+  text-decoration: underline;
+  background-color: #e9ecef;
+}
+.dev-header__container .dev-menu__autentication {
+  display: flex;
+}
+.dev-header__container .dev-menu__autentication--btn {
+  padding-right: 8px;
+  font-weight: 600;
+  border: 1.5px solid rgb(47, 58, 178);
+  color: rgb(59, 73, 223);
+}
+.dev-header__container .dev-menu__autentication--btn:hover {
+  background-color: rgb(59, 73, 223);
+  color: #f8f8f2;
+  text-decoration: underline;
+}
+.dev-header__container .dev-menu__autentication--avatar {
+  display: none;
+  height: 40px;
+  width: 40px;
+  background-color: hotpink;
+  border-radius: 50%;
+}
+.dev-header__container .dev-menu__autentication--avatar > span {
+  font-size: 9px;
+  text-align: center;
+  color: aliceblue;
 }/*# sourceMappingURL=index.css.map */
