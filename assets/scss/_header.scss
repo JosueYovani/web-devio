@@ -1,0 +1,59 @@
+.dev-header {
+  background-color: $bg-header-color;
+  box-shadow: $box-shadow-header;
+  height: 56px;
+
+  &__container {
+    padding: 0;
+    display: flex;
+    align-items: center;
+    position: relative;
+    height: 56px;
+
+    .dev-logo {
+      text-decoration: none;
+      height: 40px;
+      width: 50px;
+
+      &__img {
+        max-width: 100%;
+        width: auto;
+        object-fit: contain;
+        display: inline-block;
+      }
+    }
+
+    .dev-search {
+      max-width: 420px;
+      width: 420px;
+      max-height: 39;
+      height: 39;
+      margin: 0 1rem;
+
+      &__fields {
+        border: $border-dev-size solid $boder-dev-color;
+        border-radius: 6px;
+        // outline: solid salmon;
+        display: flex;
+        padding-left: 6px;
+
+        &--input {
+          border: 0;
+          outline: none;
+          flex: auto;
+        }
+        &--button {
+          background-color: transparent;
+          border: 0;
+          border-radius: 6px;
+          height: 37px;
+          width: 40px;
+
+          &:hover {
+            background-color: #e9ecef;
+          }
+        }
+      }
+    }
+  }
+}

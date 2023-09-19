@@ -1,7 +1,5 @@
 // Import elements sass
 @import "./variables";
 @import "./custom";
-// Custom elements
-h1 {
-  color: $brand-rgb;
-}
+// Import elements layout
+@import "./header";
