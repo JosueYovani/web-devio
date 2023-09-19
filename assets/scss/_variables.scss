@@ -2,8 +2,15 @@
 $brand-lighter-rgb: rgb(80, 99, 301);
 $brand-rgb: rgb(59, 73, 223);
 $brand-darker-rgb: rgb(47, 58, 178);
-// Colors site web
+
+// backgrounds colors
+$bg-header-color: white;
 $bg-body-color: rgb(245, 245, 245);
 $bg-footer-color: rgb(229, 229, 229);
-$comment-color: #808080;
+
+// txt
 $text-color: #f8f8f2;
+$comment-color: #808080;
+
+// box
+$box-shadow-header: 0 1px 1px rgba(0, 0, 0, 0.1);
