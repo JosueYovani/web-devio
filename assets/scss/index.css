@@ -2,6 +2,26 @@ body {
   background-color: rgb(245, 245, 245);
 }
 
+/*** Links ***/
+.dev-link {
+  color: rgb(59, 73, 223);
+  font-weight: 600;
+  text-decoration: none;
+}
+.dev-link:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.link {
+  color: rgb(59, 73, 223);
+  text-decoration: none;
+}
+.link:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
 .dev-header {
   background-color: white;
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
@@ -94,4 +114,60 @@ body {
   font-size: 9px;
   text-align: center;
   color: aliceblue;
+}
+
+.dev-aside-left__container .aside-cards-dev-community .card {
+  margin: 16px 0;
+  border: none;
+  padding: 16px;
+}
+.dev-aside-left__container .aside-cards-dev-community .card--header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 16px;
+}
+.dev-aside-left__container .aside-cards-dev-community .card--header .txt-header {
+  color: rgb(115, 115, 115);
+  font-size: 14px;
+}
+.dev-aside-left__container .aside-cards-dev-community .card--header .btn-header {
+  border: 0;
+  font-size: 18px;
+  background-color: transparent;
+}
+.dev-aside-left__container .aside-cards-dev-community .card--header .btn-header:hover {
+  border-radius: 4px;
+  background-color: rgba(0, 0, 0, 0.035);
+}
+.dev-aside-left__container .aside-cards-dev-community .card--content {
+  padding: 12px 4px 4px;
+}
+.dev-aside-left__container .aside-cards-dev-community .card--content a img {
+  height: auto;
+  width: 100%;
+  margin-bottom: 20px;
+}
+.dev-aside-left__container .aside-cards-dev-community .card--content h3 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.dev-aside-left__container .aside-cards-dev-community .card--content p {
+  font-size: 16px;
+}
+.dev-aside-left__container .aside-cards-dev-community .card--content button {
+  padding-right: 8px;
+  font-weight: 600;
+  border: 1.5px solid rgb(47, 58, 178);
+  color: rgb(59, 73, 223);
+}
+.dev-aside-left__container .aside-cards-dev-community .card--content button:hover {
+  background-color: rgb(59, 73, 223);
+  color: #f8f8f2;
+  text-decoration: underline;
+}
+.dev-aside-left__container .aside-footer p {
+  font-size: 0.87rem;
+  color: rgb(115, 115, 115);
 }/*# sourceMappingURL=index.css.map */
